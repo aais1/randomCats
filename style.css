@@ -17,13 +17,14 @@ body{
     margin-top:33px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
-  #bt{
+  #bt,#bt1{
     border:none;
     background-color:lightgray;
     font-weight:700;
     border-radius:7px;
     padding:8px;
     transition:100ms;
+    margin: 3px 10px;
   }
   #bt:hover{
     background-color:white;
@@ -32,6 +33,18 @@ body{
     cursor:pointer;
     transform:scale(1.1);
   }
+  #bt1:hover{
+    background-color:white;
+    border:1px solid black;
+      font-weight:700;
+    cursor:pointer;
+    transform:scale(1.1);
+  }
+  #bt1:active{
+      background-color:rgb(207, 173, 81);
+      border:none;
+    }
+  
   #bt:active{
     background-color:rgb(207, 173, 81);
     border:none;
