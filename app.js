@@ -1,4 +1,4 @@
-const btDownload = document.getElementById('bt1');
+const btPreview = document.getElementById('bt1');
 const catImage = document.getElementById("cat-image");
 
 
@@ -16,12 +16,11 @@ function btnClick() {
 }
 
 
-//for downloading 
-btDownload.addEventListener("click", () => {
+//for Preview 
+btPreview.addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = catImage.src;
   console.log(link);
-  link.download = "cat_image.jpg";
   link.click();
   link.remove();
 });
